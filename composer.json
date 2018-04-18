@@ -20,8 +20,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Ueditor\\": "src/",
-            "Ueditor\\Test\\": "tests/"
+            "Ueditor\\": "src/"
         }
     }
 }
