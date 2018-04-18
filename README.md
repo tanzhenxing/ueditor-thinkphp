@@ -1,3 +1,5 @@
+百度UEditor 上传插件包使用说明
+
 # UEditor php 上传文件封装
 
 ### 使用：
