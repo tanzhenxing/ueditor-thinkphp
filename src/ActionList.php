@@ -77,10 +77,9 @@ class ActionList
 
     /**
      * 列出图片列表
-     * @param $start 开始个数
-     * @param $end 一次返回的文件个数
+     * @param $start
+     * @param $size
      * @return array
-     *
      */
     public function getListImage($start, $size)
     {
@@ -131,8 +130,9 @@ class ActionList
     /**
      * 遍历获取目录下的指定类型的文件
      * @param $path
+     * @param $allowFiles
      * @param array $files
-     * @return array
+     * @return array|null
      */
     public function getfiles($path, $allowFiles, &$files = array())
     {

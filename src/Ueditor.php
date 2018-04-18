@@ -49,7 +49,7 @@ class Ueditor
      */
     public function uploadScrawl()
     {
-        return ActionUpload($this->config);
+        return new ActionUpload($this->config);
     }
 
     /**
