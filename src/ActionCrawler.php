@@ -18,6 +18,11 @@ class ActionCrawler
      */
     private $config;
 
+    /**
+     * 构造方法
+     * ActionCrawler constructor.
+     * @param $config
+     */
     public function __construct($config)
     {
         $this->config = $config;

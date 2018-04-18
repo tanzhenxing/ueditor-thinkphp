@@ -11,9 +11,12 @@ namespace Ueditor;
 
 class Config
 {
+    /**
+     * 前后端通信相关的配置,注释只允许使用多行方式
+     * @return array
+     */
     public static function getConfig()
     {
-        /* 前后端通信相关的配置,注释只允许使用多行方式 */
         return $config = [
             /* 上传图片配置项 */
             "imageActionName" => "uploadimage", /* 执行上传图片的action名称 */

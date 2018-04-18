@@ -9,7 +9,6 @@
 
 namespace Ueditor;
 
-use Qcloud\Cos\Client;
 
 class Uploader
 {

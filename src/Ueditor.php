@@ -12,6 +12,7 @@ namespace Ueditor;
 class Ueditor
 {
     /**
+     * 百度编辑器
      * Ueditor Configure
      * @var array
      *

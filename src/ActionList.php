@@ -25,10 +25,9 @@ class ActionList
 
     /**
      * 列出文件列表
-     * @param $start 开始个数
-     * @param $end 一次返回的文件个数
+     * @param int $start
+     * @param int $size
      * @return array
-     *
      */
     public function getListFile($start = 0, $size = 0)
     {
