@@ -1,5 +1,5 @@
 百度UEditor 上传插件包使用说明
-Composer 安装：
+Composer 安装：<br />
 composer require tanzhenxing/ueditor-thinkphp
 
 # UEditor php 上传文件封装
